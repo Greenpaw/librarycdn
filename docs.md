@@ -1,4 +1,4 @@
-##Librarycdn docs
+Librarycdn docs
 
 Для авторизации на сайте необходимо вызвать метод auth с параметром 'login=XXX&password=YYY'
 где ХХХ - имя пользователя, YYY - пароль.
