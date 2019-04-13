@@ -1,6 +1,6 @@
 
 //данные для тестирования метода авторизации
-var formData = 'login=grnpw&password=6vsw12rs';
+var formData = '';
 
 // метод авторизации
 function auth(userData) {
@@ -37,7 +37,7 @@ function auth(userData) {
 
 //------------------------------------
 //данные для тестирования метода получения профиля
-var dataSend = 'profile_uid=13957';
+var dataSend = '';
 //метод получение профиля
 function getProfile (uid) {
 // обработка ответа сервера 
@@ -65,7 +65,7 @@ function getProfile (uid) {
 
 //------------------------------------
 //данные для тестирования метода получения новостей
-var dataSend = 'access_token=83491c1b7bd66cb607df811392990b0ae0843a7a';
+var dataSend = '';
 //метод получения новостей
 function getNewsList (token) {
 // обработка ответа сервера 
